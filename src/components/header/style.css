@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-bold {
+  color: #fff;
+  font-family: "Cinzel", serif;
+  font-size: 2.2rem;
+}
+.logo-orange {
+  color: #e63946;
+  font-family: "Cinzel", serif;
+  font-size: 2.2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+  margin-right: 5rem;
+}
+nav ul li a {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #e63946;
+}

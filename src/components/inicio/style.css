@@ -1,0 +1,39 @@
+.content {
+  padding-top: 80px; /* Espaço para o header fixo */
+  padding: 80px 2rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.text-block {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 8px;
+  border-left: 4px solid #e63946;
+}
+
+.text-block h2 {
+  color: #e63946;
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.text-block p {
+  color: #cfcfcf;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.profile-image {
+  max-width: 300px;
+  max-height: 400px;
+}
