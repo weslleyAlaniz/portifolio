@@ -1,0 +1,71 @@
+.projetos-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.projetos-section h2 {
+  color: #e63946;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.projetos-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projeto-card {
+  background: rgba(30, 30, 30, 0.85);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.2rem 1rem;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projeto-image {
+  width: 180px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.7rem;
+}
+
+.projeto-card h3 {
+  color: #e63946;
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.projeto-card p {
+  color: #cfcfcf;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.projeto-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-proj {
+  background: #232526;
+  color: #fff;
+  padding: 0.35rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-proj:hover {
+  background: #e63946;
+  color: #fff;
+}
